@@ -12,7 +12,7 @@ public class Application {
     }
 
     public static void DBCourseWork() {
-        EntityManager entityManager = Utility.getEntityManager();
+         entityManager = Utility.getEntityManager();
         LogInfoDAOImpl logDao = new LogInfoDAOImpl();
         RoleDAOImpl roleDAO = new RoleDAOImpl();
         List<LogInfo> users = new ArrayList<>();
